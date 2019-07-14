@@ -40,6 +40,9 @@
     "pre-commit": "rc-tools run pre-commit",
     "lint-staged": "lint-staged"
   },
+  "pre-commit": [
+    "lint-staged"
+  ],
   "devDependencies": {
     "enzyme": "^3.8.0",
     "lint-staged": "^9.0.0",
