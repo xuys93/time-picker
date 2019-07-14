@@ -1,0 +1,9 @@
+.demo ul{
+    display: flex;
+}
+
+.demo ul li{
+    padding: 10px;
+    list-style-type: none;
+    border: #999999 solid 1px;
+}
